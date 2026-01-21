@@ -1,2 +1,28 @@
 # A-FORM-FOR-STUDENT-DETAILS-
 A from to allow students in a school to enter their details 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form id="studentForm">
+    <label>Name:</label>
+    <input type="text" id="name" required>
+
+    <label>Registration Number:</label>
+    <input type="text" id="regNo" required>
+
+    <label>Age:</label>
+    <input type="number" id="age" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
